@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 2px rgb(212, 212, 212);
+    background-color: white;   
+   
+}
+
+.logo-image img{
+    margin: 10px;
+    width: 15%;
+
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+
+}
+.navbar ul li {
+    margin: 15px;  
+    list-style: none; 
+}
+.navbar ul li a  {
+    text-decoration: none;
+    color: black;
+
+}
+
+#pays{
+    border: none;
+
+}
+
+
+.navbar ul li button{
+    padding:5px 15px 5px; 
+    background-color: rgb(214, 2, 2);
+    color: white;
+    border-radius: 14px;
+    border: none;
+}
+/* section la petite histoire */
+.title-1{
+    color: rgb(214, 2, 2);
+    text-align: center;
+    margin: 25px;
+
+}
+.title-1 h1{
+    font-size: 25px;
+}
+.h-title{
+    margin: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.history-h{
+    text-align: center;
+    border:1px solid #cc0000;
+    width: 50%;
+    height: 80px;
+    border-radius:  0px 0px 100px 0;
+    color: #fff;
+    background-color: rgb(214, 2, 2);
+    box-shadow:  0 10px  rgb(212, 98, 136);
+    box-shadow:  0 20px  rgb(230, 36, 101);
+    
+}
+.white-p{
+    font-size: 15px;
+    background-color: #ffffff;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    width: 95%;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    height: 90%;
+
+}
+.red-page{
+     font-size: 15px;
+    position: absolute;
+    background-color: rgb(214, 2, 2);
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    width: 25%;
+    transform: rotate(5deg);
+    margin-right: 15px;
+    height: 44%; 
+    z-index: -1;
+    margin-bottom: 50px;
+
+}
+
+.pied-history .b{
+position: absolute;
+margin-top: 50px;
+background-color: #cc0000;
+flex-direction:column ;
+width: 8px;
+height: 9px;
+border-radius: 15px;
+margin-left: 700px;
+} 
+.pied-history .c{
+    margin: 12%;
+position: absolute;
+margin-top: 50px;
+background-color: #cc0000;
+flex-direction:column ;
+width: 40px;
+height: 10px;
+border-radius: 25px;
+margin-left: 750px;
+}
+
+
+/* section pedag */
+
+.title-2{
+    margin-top: 20%;
+    color: rgb(214, 2, 2);
+    margin-top: 16%;
+    text-align: center;
+}
+.contenair-pedag{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 10%;
+    
+}
+.video-place{
+    text-align: center;
+    
+}
+.peda-erea{
+    
+}
+.peda-erea h1{
+    color: rgb(214, 2, 2);
+    margin: 15px;
+}
+.peda-erea p{
+    width: 80%;
+
+    margin-left: 10%;
+} */
+
+/* section pilier */
+#plier{
+    width: 50%;
+    margin: 15%;
+
+
+
+}
+.title-plr{
+    margin: 6%;
+    color: rgb(214, 2, 2);
+}
+
+.plier-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 4%;
+    
+}
+.grid-pg{
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    grid-template-rows: repeat(3, 200px);
+    gap: 20Px;
+    
+    
+    
+}
+.cell{
+    width: 70%;
+    border-bottom: 4px solid rgb(216, 2, 2);
+    background-color: #fff;
+    margin-top: 5px;
+    box-shadow: 0px 0px 2px 2px beige;
+    
+}
+.cell h1{
+    color: rgb(214, 2, 2);
+    text-align: center;
+    margin-top: px;
+}
+.back-pilier{
+    position: relative;
+}
+.back-p{
+    width: 310px;
+    height: 520px;
+    align-items: center;
+    border-radius: 12px;
+    background-color: rgb(214, 2, 2);
+    margin-left: 8%;
+    margin-top: 40px ;
+    padding: 10%;
+
+}
+.pilier-image img{
+     width: 300px;
+     height: 490px;
+     margin: 12px ;
+     align-items: center;
+     border-radius: 12px;
+     margin-top: -540px ;
+     
+}
+.valeur-h{
+    text-align: center;
+    color: rgb(214, 2, 2);
+    margin-left: 40%;
+}
+ .valeur-cnt {
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+    
+ } 
+ .right-side {
+    margin: 2%;
+    width: 60%;
+ }
+ .right-side h1{
+    color: rgb(214, 2, 2);
+ }
+ .right-side p {
+    width: 50%;
+ }
+ .right-side button{
+    margin: 15%;
+    padding: 8px;
+    width: 95px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(214, 2, 2);
+    color: white;
+ }
+ .second-grid{
+    
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 20px;
+    background-color: white;
+    text-align: center
+
+;
+ }
+.cell2{
+    background-color: white;
+    box-shadow:0 0 2px 2px rgb(237, 213, 213);
+}  
+ .cell2 .cercle h1{
+    color: rgb(214, 2, 2);
+    text-align: center;
+    background-color: rgb(225, 136, 136);
+    border-radius: 80%;
+    width: 10%;
+     
+ }
+
+ /* section chiffres */
+
+.chiffres-cnt{
+margin: 10%;
+}
+.chiffres-h{
+    color: rgb(214, 2, 2);
+    text-align: center;
+    margin: 10%;
+}
+.grid-3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    background-color: rgb(214, 2, 2);
+    padding: 4%;
+    font-size: 15px;
+    color: white;
+    width: 100%;
+}
+.cell3 span{
+    font-size: 35px;
+} 
+ /* section equipe */
+ #equipe{
+ }
+.equipe-hp{
+    text-align: center;
+    margin: 2%;
+}
+.eqp-p{
+    margin-left: 22%;
+    text-align: center;
+    width: 50%;
+}
+.equipe-hp h1{
+    margin: 5%;
+    color: rgb(214, 2, 2);
+}
+.grid4{
+    margin: 12%;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    gap: 50px;
+    text-align: center;
+}
+.equipe{
+    box-shadow: 0px 0px 6px rgb(229, 219, 219);
+    height: 130%;
+    width: 65%;
+}
+
+.equipe img{
+    width: 40%;
+    border-radius: 50%;
+}
+
+.status{
+    
+    color: rgb(214, 2, 2);
+}
+.social{
+    display: flex;
+    width: 60px;
+    margin-left: 30%;
+    margin-top: 20%;
+       
+}
+.social img{
+    justify-content: center;
+    text-align: center;
+}
+.recrutement{
+    margin: 10%;
+}
+.title-6 {
+    text-align: center;
+    color: rgb(214, 2, 2);
+}
+.pic-phg{
+    display: flex;
+    justify-content: space-between;
+    margin: 10%;
+}
+.div-img img{
+    width: 500px;
+}
+.pourquoi{
+    width: 90%;
+    padding: 5%;
+    margin-left: 50px;
+}
+.pourquoi h1{
+    color: rgb(214, 2, 2);
+    margin-bottom: 10%;
+}
+
+
+/* section offre */
+.offer-cnt{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+.backrnd{
+    display: flex;
+    justify-content: space-between;
+}
+.petite-case{
+    border: 1px solid;
+    text-align: center;
+}
